@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    font-family: "General sans";
+}
+.first-page{
+    width: 100%;
+    height: 100vh;
+}
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 50px;
+    
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    
+}
+.hero{
+    color: white;
+    text-transform: uppercase;
+    margin-top: 90px;
+    margin-left: 50px;
+}
+.hero h1{
+    font-size: 9.5vw;
+    font-family: "General Sans Medium";
+    font-weight: 500;
+    line-height: 1;
+    opacity: .6;
+}
+.heading-2{
+    margin-left: 130px;
+}
+.hero-2{
+    width: fit-content;
+}
+.smallHeading{
+    text-align: right;
+    font-size: 20px;
+    font-weight: 500;
+}
+.hero-3{
+    color: white;
+    width: 100%;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-top: 120px;
+    text-align: right;
+}
+.hero-3 p{
+    margin-right: 40px;
+    line-height:2 ;
+    font-size: 1.1vw;
+}
+.firstpageFooter {
+    position: absolute;
+    bottom: 3%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2vw;
+}
+.firstpageFooter a{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+    text-decoration: none;
+}
+.iconsets{
+    display: flex;
+    gap: .3vw;
+}
+.firstpageFooter .circle{
+width: 25px;
+height: 25px;
+border-radius: 50%;
+color: white;
+background-color: #888;
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 1vw;
+}
+
+.second-page{
+    width: 100%;
+    height: 100vh;
+    
+}
+.elem{
+    width: 90%;
+    border-top: 1px solid #888;
+}
