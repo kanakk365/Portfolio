@@ -138,29 +138,35 @@ gap: 1vw;
     width: 100%;
     padding: 2.5vw 0vw;
     padding-left: 1vw;
+    padding-right: 0 ;
     border-top: 1px solid #888;
     color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
 }
 .elem h1{
     font-size: 7vw;
     opacity: .65;
     text-transform: uppercase;
     letter-spacing: 5px;
+    transition: opacity 0.3s ease, padding-left 0.5s ease;
 }
 .elem h5{
     font-size: 1vw;
+    transition: opacity 0.3s ease, padding-left 0.5s ease;
 }
 .elemlast{
     border-bottom: 1px solid #888;
 }
 .elem img{
-    display: none;
+    opacity: 0;
     position: absolute;
     z-index: 999;
-    height: 40%;
+    height:160%;
+    pointer-events: none;
+    transform: translate(-50%,-50%);
 }
 .third-page{
     height: 80vh;
