@@ -431,3 +431,76 @@ footer{
         font-size: 1.7vw;
     }
 }
+@media only screen and (max-width: 420px){
+    .navbar{
+        padding: 20px 3.5vw;
+    }
+    .hero{
+        margin-top: 90px;
+        margin-left:3.5vw;
+    }
+    .hero-3 p{
+        margin-right:3.5vw;
+        line-height:2 ;
+        font-size: .9rem;
+    }
+    .elem h5{
+        font-size: 1.7vw;
+    }
+    .firstpageFooter {
+        display: flex;
+        align-items: center;
+        justify-content:  space-between;
+        padding: 0 3.5vw;
+        gap: 150px;
+        
+    }
+    .firstpageFooter a{
+        font-size: 13px;
+    }
+    .elem h1{
+        
+        font-size: 2.8rem;
+    }
+    .elem h5{
+        font-size: .7rem;
+    }
+    .second-page{
+        padding-right: 3.5vw;
+        padding-top: 200px;
+        padding-left: 3.5vw;
+        width: 98%;
+    }
+    .elem{
+        padding:22px 0;
+    }
+    footer{
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        padding-bottom: 20px;
+        gap: 20px;
+    }
+    .footer-left{
+        justify-content: space-between;
+        gap: 270px;
+        
+    }
+    .footer-right{
+        gap: 43px;
+    }
+    .connect{
+        padding-top: 25px;
+        padding-bottom: 15vh;
+        padding-left: 3.5vw;
+    }
+    .connect h5{
+       
+        margin-bottom: 7px;
+    }
+    .connect a{
+        font-weight: 500;
+    }
+    
+
+}
