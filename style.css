@@ -305,6 +305,9 @@ footer{
 }
 
 @media only screen and (max-width: 1030px){
+    .minicircle{
+        display: none;
+    }
     .myImg{
         width: 190px;
     }
@@ -341,6 +344,9 @@ footer{
 }
 
 @media only screen and (max-width: 770px){
+    .minicircle{
+        display: none;
+    }
     .second-page{
         padding-right: 2.3vw;
         padding-top: 200px;
@@ -444,6 +450,9 @@ footer{
     }
 }
 @media only screen and (max-width: 480px){
+    .minicircle{
+        display: none;
+    }
     .navbar{
         padding: 20px 3.5vw;
     }
