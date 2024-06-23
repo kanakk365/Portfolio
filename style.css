@@ -131,7 +131,6 @@ gap: 1vw;
     padding-top: 200px;
     padding-left: 2.5vw;
     width: 100%;
-    height: 100vh;
     
 }
 .elem{
@@ -151,11 +150,11 @@ gap: 1vw;
     opacity: .65;
     text-transform: uppercase;
     letter-spacing: 5px;
-    transition: opacity 0.3s ease, padding-left 0.5s ease;
+    transition: opacity 0.3s ease, padding-left 0.7s ease;
 }
 .elem h5{
     font-size: 1vw;
-    transition: opacity 0.3s ease, padding-left 0.5s ease;
+    transition: opacity 0.3s ease, padding-left 0.7s ease;
 }
 .elemlast{
     border-bottom: 1px solid #888;
@@ -169,29 +168,29 @@ gap: 1vw;
     transform: translate(-50%,-50%);
 }
 .third-page{
-    height: 80vh;
+    margin-top: 6vw;
     width: 100%;
     display: flex;
     align-items: center;
     gap: 50px;
     padding: 10vw 10vw;
-    padding-left: 48vw;
     color: white;
+    display: flex;
+    justify-content:end;
 }
 .aboutMe{
- width: 30rem;
+ width: 30vw;
  
 }
 .myImg{
-    width: 225px;
-    transform: translateX(-2em);
+    width: 250px;
 }
 .aboutMe h5{
-    font-size: 15px;
+    font-size: .8vw;
     opacity: .7;
 }
 .aboutMe p{
-    font-size: 19px;
+    font-size: 1.1rem;
     line-height: 30px;
     margin-bottom: 25px;
 }
@@ -244,4 +243,191 @@ footer{
     color: white;
     font-size: 15px;
     font-weight: 500;
+}
+
+@media only screen and (max-width: 1280px){
+    .aboutMe{
+        width: 40vw;
+        
+       }
+       .myImg{
+        width: 225px;
+    }
+    .aboutMe h5{
+        font-size: .8rem;
+        opacity: .7;
+    }
+    .aboutMe p{
+        font-size: 1rem;
+        line-height: 26px;
+        margin-bottom: 25px;
+    }
+    .connect{
+        line-height: 15px;
+    }
+
+    .connect h5{
+        opacity: .7;
+        text-transform: uppercase;
+        margin-bottom: 7px;
+    }
+    .connect a{
+        text-decoration: none;
+        color: white;
+        text-transform: uppercase;
+        font-weight: 500;
+        font-size: .9rem;
+    }
+    .footer-right a{
+        text-decoration: none;
+        color: white;
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .footer-left{
+        display: flex;
+        gap: 30px;
+        font-size: 16px;
+        font-weight: 500;
+    }
+}
+
+@media only screen and (max-width: 1030px){
+    .myImg{
+        width: 190px;
+    }
+    .aboutMe{
+        width: 45vw;    
+       }
+    .talk{
+    padding: 6px 17px;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    border-radius: 100px;
+    font-size: 14px;
+    }
+    .connect a{
+        text-decoration: none;
+        color: white;
+        text-transform: uppercase;
+        font-weight: 500;
+        font-size: .8rem;
+    }
+    .connect{
+        padding-top: 5vh;
+        line-height: 10px;
+        padding-left: 1.8rem;
+        width: 100%;
+        color: white;
+        padding-bottom: 10vh;
+    }
+   footer{
+    padding-left:1.8rem ;
+    padding-right: 1.8rem;
+   }
+}
+
+@media only screen and (max-width: 770px){
+    .second-page{
+        padding-right: 2.3vw;
+        padding-top: 200px;
+        padding-left: 2.5vw;
+        width: 100%;
+        
+    }
+    .firstpageFooter {
+        position: absolute;
+        bottom: 3%;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 2vw;
+    }
+    .firstpageFooter a{
+        color: white;
+        text-transform: uppercase;
+        font-weight: 500;
+        text-decoration: none;
+    }
+    .iconsets{
+        display: none;
+    }
+    .firstpageFooter .circle{
+    display: none;
+    }
+    .third-page{
+        margin-top: 25vw;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        gap: 50px;
+        padding: 10vw 10vw;
+        color: white;
+        display: flex;
+        justify-content:end;
+        padding: 3vw;
+    }
+    .aboutMe{
+     width:100%;
+     
+    }
+    .myImg{
+        width: 225px;
+    }
+    .aboutMe h5{
+        font-size: 2vw;
+        opacity: .7;
+    }
+    .aboutMe p{
+        font-size: 1rem;
+        line-height: 25px;
+        margin-bottom: 25px;
+    }
+    .talk{
+        padding: 8px 25px;
+        text-decoration: none;
+        color: white;
+        border: 1px solid white;
+        border-radius: 100px;
+        font-size:15px;
+    }
+    .connect{
+        padding-top: 15px;
+        width: 100%;
+        color: white;
+        padding-bottom: 15vh;
+    }
+    .connect h5{
+        opacity: .7;
+        text-transform: uppercase;
+        margin-bottom: 7px;
+    }
+    .connect a{
+        text-decoration: none;
+        color: white;
+        text-transform: uppercase;
+        font-weight: 500;
+    
+    }
+    footer{
+        padding-right: 1.8rem;
+       }
+       .navbar{
+        padding: 10px 1.8vw;
+    }
+    .hero{
+        margin-top: 90px;
+        margin-left:1.8vw;
+    }
+    .hero-3 p{
+        margin-right:1.8vw;
+        line-height:2 ;
+        font-size: .9rem;
+    }
+    .elem h5{
+        font-size: 1.7vw;
+    }
 }

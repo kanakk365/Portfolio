@@ -111,7 +111,7 @@ document.querySelectorAll(".elem").forEach(function (elem) {
             h1.style.paddingLeft = "0";
         }
         if (h5) {
-            h5.style.opacity = "0.65";
+            h5.style.opacity = "1";
         }
     });
 });
