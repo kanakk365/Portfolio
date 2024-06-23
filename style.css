@@ -1,11 +1,11 @@
 @font-face {
-    font-family: 'GeneralSans-Medium';
+    font-family: 'General Sans Medium';
     src: url('Fonts/GeneralSans-Medium.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
-    font-family: 'GeneralSans';
+    font-family: 'General sans';
     src: url('Fonts/GeneralSans-Regular.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
