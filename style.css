@@ -135,7 +135,7 @@ a {
 }
 .firstpageFooter {
   position: absolute;
-  bottom: 5%;
+  bottom: 3%;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -494,6 +494,7 @@ footer {
     justify-content: space-between;
     padding: 0 3.5vw;
     gap: 150px;
+    bottom: 5%;
   }
   .firstpageFooter a {
     font-size: 13px;
