@@ -126,7 +126,7 @@ function updateTime() {
   const ampm = hours >= 12 ? 'PM' : 'AM';
   hours = hours % 12;
   hours = hours ? hours : 12; 
-  clockElement.textContent = `${hours}:${minutes}:${seconds} ${ampm}`;
+  clockElement.textContent = `${hours}:${minutes} ${ampm}`;
 }
 
 setInterval(updateTime, 1000);
