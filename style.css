@@ -524,10 +524,10 @@ footer {
   }
   .footer-left {
     justify-content: space-between;
-    gap: 270px;
+    gap: 240px;
   }
   .footer-right {
-    gap: 43px;
+    gap: 30px;
   }
   .connect {
     padding-top: 25px;
